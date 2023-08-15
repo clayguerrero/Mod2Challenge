@@ -1,0 +1,139 @@
+:root {
+  --white: #e8e9eb;
+}
+
+header {
+  background-color: #313638;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 40px;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 4rem;
+  padding-left: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.imgContianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 0;
+}
+.aboutMe p {
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+}
+.topProject {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 70%;
+  height: 400px;
+  background-image: url("../images/inProgresssSite.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.miscProj {
+  /* border: solid aqua 3px; */
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  box-sizing: border-box;
+  width: 70%;
+  height: 500px;
+}
+
+.nameCont {
+  border: solid black 1.5px;
+  width: fit-content;
+  padding: 14px;
+  background-color: #fff;
+}
+
+.ledWall {
+  background-image: url(https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.calc {
+  background-image: url(https://fvsch.com/articles/calculators/calculator-result.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.puzzle {
+  background-image: url(https://www.jigsawexplorer.com/images/tablet-and-phone-large.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.timer {
+  background-image: url(https://clockify.me/assets/images/features-apps-800w.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.ledWall {
+  border-top: solid 3px #313638;
+  border-right: solid 3px #313638;
+  border-bottom: solid 3px #313638;
+}
+.calc {
+  border-top: solid 3px #313638;
+  border-bottom: solid 3px #313638;
+}
+
+.puzzle {
+  border-right: solid 3px #313638;
+  border-bottom: solid 3px #313638;
+}
+.timer {
+  border-bottom: solid 3px #313638;
+}
+
+footer {
+  background-color: #313638;
+  color: var(--white);
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
