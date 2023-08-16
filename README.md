@@ -5,5 +5,5 @@
 ## Here is the link to the deployed app https://clayguerrero.github.io/Mod2Challenge/
 
 ## Screenshots
-![Desktop Version] (../images/desktopVersion.PNG)
-![Mobile Version] (../images/mobileVersion.PNG)
+![Desktop Version](./images/desktopVersion.PNG)
+![Mobile Version](./images/mobileVersion.PNG)
