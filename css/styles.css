@@ -37,9 +37,14 @@ a {
 
 .aboutMe {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 28px 0;
+}
+.aboutMe h2 {
+  font-size: 32px;
+  padding-bottom: 32px;
 }
 .aboutMe p {
   font-size: 2rem;
@@ -52,7 +57,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 3px solid black; */
+}
+.pTitle {
+  font-size: 32px;
+  padding-bottom: 32px;
 }
 .topProject {
   display: flex;
@@ -123,11 +131,8 @@ a {
 
 .puzzle {
   border-right: solid 3px #313638;
-  border-bottom: solid 3px #313638;
 }
-.timer {
-  border-bottom: solid 3px #313638;
-}
+
 
 footer {
   background-color: #313638;
